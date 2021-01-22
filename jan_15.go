@@ -1,10 +1,10 @@
 package leetcode
 
 func getMaximumGenerated(n int) int {
-	if == 0 {
+	if n == 0 {
 		return 0
 	}
-	if n == 1{
+	if n == 1 {
 		return 1
 	}
 
@@ -19,9 +19,9 @@ func getMaximumGenerated(n int) int {
 		}
 	}
 
-	if num[len(nums)-1] > num[len(nums)-2] {
-		return num[len(nums)-1]
+	if nums[len(nums)-1] > nums[len(nums)-2] {
+		return nums[len(nums)-1]
 	}
 
-	return num[len(nums)-2]
+	return nums[len(nums)-2]
 }

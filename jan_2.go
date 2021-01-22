@@ -1,6 +1,7 @@
 // it isn't binary tree
+package leetcode
 
-struct TreeNode {
+/*struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
@@ -9,7 +10,7 @@ struct TreeNode {
 };
 
 TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
-    return search(cloned, target->val);  
+    return search(cloned, target->val);
 }
 
 TreeNode* search(TreeNode* tree, int val) {
@@ -30,4 +31,4 @@ TreeNode* search(TreeNode* tree, int val) {
     }
 
     return NULL;
-}
+}*/
